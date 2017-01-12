@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<presentation title="Is Embodiment necessary for Language" width="720.0000000" height="540.0000000" frameRate="24.0000000" duration="5.5910000">
+	<slides>
+		<slide index="1" slideId="256" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Is embodiment necessary for  natural language understanding?">
+			<notes/>
+			<notesHtml/>
+			<text>Is embodiment necessary for  natural language understanding?
+ Włodzisław Duch
+  Department of Informatics, 
+Nicolaus Copernicus University, Toruń, Poland 
+Google: W. Duch
+
+Enactivism: A new paradigm? Toruń, Oct. 2008</text>
+		</slide>
+		<slide index="2" slideId="532" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Plan">
+			<notes/>
+			<notesHtml/>
+			<text>Plan
+Neurocognitive informatics.
+Language &amp; embodiment.
+Words in the brain.
+Insight. 
+Approximations and medical applications.
+Creation of novel words. 
+Memory and pair-wise priming.
+What else can we do?
+Some older stuff I’ll not have time to talk about … </text>
+		</slide>
+		<slide index="3" slideId="678" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Neurocognitive informatics">
+			<notes/>
+			<notesHtml/>
+			<text>Neurocognitive informatics
+Neurocognitive informatics: brain processes can be a great inspiration for AI algorithms, if we could only understand them …. 
+From perception to action to language, labeling actions. 
+CI: lower cognitive functions, perception, signal analysis,  action control, sensorimotor behavior.
+AI: higher cognitive functions, thinking, reasoning, planning etc.
+Neurocognitive informatics: brain processes can be a great inspiration for AI algorithms, if we could only understand them …. 
+What are the neurons doing? Perceptrons, basic units in multilayer perceptron networks, use threshold logic – NN inspirations.  
+What are the networks doing? Specific transformations, memory, estimation of similarity. 
+How do higher cognitive functions map to the brain activity?  Neurocognitive informatics =  abstractions of this process . </text>
+		</slide>
+		<slide index="4" slideId="581" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Language and embodiment ">
+			<notes/>
+			<notesHtml/>
+			<text>Language and embodiment 
+Embodiment is not a new concept anymore, eg: 
+R. Brooks, Elephants Don’t Play Chess (1990),  R. Brooks, L.A. Stein, Building Brains for Bodies (1993), Cog project manifesto (1993-2003).
+Varela, Thompson, Rosch, The embodied mind 1991
+In linguistics:  Lakoff &amp; Johnson, Philosophy In The Flesh (1999).
+Lakoff &amp; Nunez, Where Mathematics Comes From? How the Embodied Mind Brings Mathematics into Being (2000). 
+Computational linguistics is difficult, many experts lost their faith in formal methods and turned to embodied ideas, hoping for progress.
+Many “embodied” projects are currently developed with EU support. 
+What has been achieved so far?  
+Interesting understanding of roots of some concepts in mathematics, some abstract concepts “may be understood as metaphors.
+Protolanguage for robot communication (Kismet, Aibo) demonstrated.</text>
+		</slide>
+		<slide index="5" slideId="679" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="A few questions">
+			<notes/>
+			<notesHtml/>
+			<text>A few questions
+How should “embodied representation” look like? 
+No representation, just sensorimotor reactions? 
+Only primary concepts are like that? 
+Aaron Sloman (2007 talk): all simple concepts are derived from experience, but many concepts are invented, abstracted, composed. Hume example: “golden mountain”. 
+Instead of grounding all symbols, tethering is sufficient. </text>
+		</slide>
+		<slide index="6" slideId="697" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Concepts as “mind objects”">
+			<notes/>
+			<notesHtml/>
+			<text>Concepts as “mind objects”
+In 1994 I’ve presented similar model: 
+primary mind objects constructed from visual, auditory, tactile, kinesthetic and other sensory data , while “secondary mind objects” are abstract categories, derived from the primary.
+ Similarly to  “Conceptual Spaces” of Peter Gärdenfors, this is a geometrical model.
+Concepts are defined in the “mind space” using dimensions that reflect inner experience, with perceptual concepts based on colors, contours, shapes, sounds. 
+
+Key concept: conscious mind is only a shadow of neurodynamics (Plato’s cave!), so all events should be derived from neurodynamics.</text>
+		</slide>
+		<slide index="7" slideId="590" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Symbols in the brain">
+			<notes/>
+			<notesHtml/>
+			<text>Symbols in the brain
+Organization of the word recognition circuits in the left temporal lobe has been elucidated using fMRI experiments (Cohen et al. 2004).
+How do words that we hear, see or are thinking of, activate the brain? 
+Seeing words: orthography, phonology, articulation, semantics.
+Lateral inferotemporal multimodal area (LIMA) reacts to auditory   visual stimulation, has cross-modal phonemic and lexical links. Adjacent visual word form area (VWFA) in the left occipitotemporal sulcus is unimodal.   Likely: homolog of the VWFA in the auditory stream, the auditory word form area, located in the left anterior superior temporal sulcus. 
+Large variability in location of these regions in individual brains.
+Left hemisphere: precise representations of symbols, including phonological components; right hemisphere? Sees clusters of concepts. </text>
+		</slide>
+		<slide index="8" slideId="675" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Neuroimaging words">
+			<notes/>
+			<notesHtml/>
+			<text>Neuroimaging words
+Predicting Human Brain Activity Associated with the Meanings  of Nouns," T. M. Mitchell et al, Science, 320, 1191, May 30, 2008
+
+Reps. in the brain? Clear differences between fMRI brain activity when people read and think about different nouns.
+Reading words and seeing the drawing invokes similar brain activations, presumably reflecting semantics of concepts.
+Although individual variance is significant similar activations are found in brains of different people, a classifier may still be trained on pooled data. 
+Model trained on ~10 fMRI scans + very large corpus (1012) predicts brain activity for over 100 nouns for which fMRI has been done.
+
+
+Overlaps between activation of the brain for different words may serve as expansion coefficients for word-activation basis set.
+Some examples of fMRI. </text>
+		</slide>
+		<slide index="9" slideId="684" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Object recognition">
+			<notes/>
+			<notesHtml/>
+			<text>Object recognition
+S. Edelman theory (1997) ; what needs explanation?
+Second-order similarity in low-dimensional (&lt;300) space is sufficient. 
+Probability distributions of activation over population of cortical columns that work as weak classifiers in chorus (in machine learning called stacking). </text>
+		</slide>
+		<slide index="10" slideId="571" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Words in the brain">
+			<notes/>
+			<notesHtml/>
+			<text>Words in the brain
+Psycholinguistic experiments show that most likely categorical,  phonological representations are used, not the acoustic input.
+Acoustic signal =&gt; phoneme =&gt; words =&gt; semantic concepts.
+Phonological processing precedes semantic by 90 ms (from N200 ERPs).
+F. Pulvermuller (2003) The Neuroscience of Language. On Brain Circuits of Words and Serial Order. Cambridge University Press.
+Phonological neighborhood density = the number of words that are similar in sound to a target word. Similar = similar pattern of brain activations.
+Semantic neighborhood density = the number of words that are similar in meaning to a target word. 
+Action-perception networks inferred from ERP and fMRI
+Dynamical example</text>
+		</slide>
+		<slide index="11" slideId="608" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Brain-like computing">
+			<notes/>
+			<notesHtml/>
+			<text>Brain-like computing
+Brain states are physical, spatio-temporal states of neural tissue. 
+I can see, hear and feel only my brain states! Ex: change blindness.
+Cognitive processes operate on highly processed sensory data.
+Redness, sweetness, itching, pain ... are all physical states of brain tissue. 
+In contrast to computer registers,
+brain states are dynamical, and thus contain in themselves many associations, relations.
+
+Inner world is real! Mind is based on relations of brain’s states. 
+
+Computers and robots do not have an equivalent of such WM. </text>
+		</slide>
+		<slide index="12" slideId="542" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Words: simple model">
+			<notes/>
+			<notesHtml/>
+			<text>Words: simple model
+Goals: 
+   make the simplest testable model of creativity; 
+   create interesting novel words that capture some features of products;
+   understand new words that cannot be found in the dictionary.
+Model inspired by the putative brain processes when new words are being invented. Start from keywords priming auditory cortex. 
+Phonemes (allophones) are resonances, ordered activation of phonemes will activate both known words as well as their combinations; context + inhibition in the winner-takes-most leaves one or a few words.
+Creativity = space + imagination (fluctuations) + filtering (competition)
+
+Imagination: many chains of phonemes activate in parallel both words and non-words reps, depending on the strength of synaptic connections. 
+Filtering: associations, emotions, phonological/semantic density. </text>
+		</slide>
+		<slide index="13" slideId="700" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Neurocognitive reps.">
+			<notes/>
+			<notesHtml/>
+			<text>Neurocognitive reps.
+How  is a word (concept) w  represented in the brain?
+Word w = (wf,ws) has 
+phonological (+visual) component wf, word form;
+extended semantic representation ws, word meaning;
+and is always defined in the context Cont (enactive).
+
+(w,Cont,t) prob. distribution of brain activations, changing in time. 
+Hearing or thinking a word w , or seeing an object labeled as w 
+adds to the overall brain activation, unfortunately in a non-linear way.
+
+How? Maximizing overall self-consistency, mutual activations, meanings that don’t fit to current context are automatically inhibited.
+
+Result: almost continuous variation of this meaning. 
+This process is rather difficult to approximate using typical knowledge representation techniques, such as connectionist models, semantic networks, frames or probabilistic networks.  </text>
+		</slide>
+		<slide index="14" slideId="572" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Approximate reps.">
+			<notes/>
+			<notesHtml/>
+			<text>Approximate reps.
+States (w,Cont)  lexicographical meanings: 
+clusterize (w,Cont) for all contexts; 
+define prototypes (wk,Cont) for different meanings wk. 
+
+A1: use spreading activation in semantic networks to define .  A2: take a snapshot of activation  in discrete space (vector approach).
+
+Meaning of the word is a result of priming, spreading activation to speech, motor and associative brain areas, creating affordances.
+
+(w,Cont) ~ quasi-stationary wave, with phonological/visual core activations wf and variable extended representation ws selected by Cont.
+
+(w,Cont) state into components, because the semantic representation
+E. Schrödinger (1935): best possible knowledge of a whole does not include the best possible knowledge of its parts! Not only in quantum case.
+Left semantic network LH contains wf coupled with the RH. 
+What is the role of right semantic network RH? </text>
+		</slide>
+		<slide index="15" slideId="593" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Problems requiring insights">
+			<notes/>
+			<notesHtml/>
+			<text>Problems requiring insights
+Given 31 dominos            and a chessboard with 2 corners
+removed, can you cover all board with dominos?
+
+Analytical solution: try all combinations.
+
+Does not work … to many combinations to try.
+
+Logical, symbolic approach has little chance to create proper activations in the brain, linking new ideas: otherwise there will be too many associations, making thinking difficult. 
+
+Insight &lt;= right hemisphere, meta-level representations  without phonological (symbolic) components ... counting?  
+d
+o
+m
+i
+n
+o
+phonological reps
+chess  board
+black
+white
+domino</text>
+		</slide>
+		<slide index="16" slideId="594" animationStepsCount="3" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Insights and brains">
+			<notes/>
+			<notesHtml/>
+			<text>Insights and brains
+Activity of the brain while solving problems that required insight and that could be solved in schematic, sequential way has been investigated. 
+E.M. Bowden, M. Jung-Beeman, J. Fleck, J. Kounios, „New approaches to demystifying insight”. Trends in Cognitive Science 2005.
+After solving a problem presented in a verbal way subjects indicated themselves whether they had an insight or not. 
+An increased activity of the right hemisphere anterior superior temporal gyrus (RH-aSTG) was observed during initial solving efforts and insights. About 300 ms before insight a burst of gamma activity was observed, interpreted by the authors as „making connections across distantly related information during comprehension ... that allow them to see connections that previously eluded them”. </text>
+		</slide>
+		<slide index="17" slideId="595" animationStepsCount="3" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Insight interpreted">
+			<notes/>
+			<notesHtml/>
+			<text>Insight interpreted
+
+What really happens? My interpretation:
+
+LH-STG represents concepts, S=Start, F=final
+understanding, solving = transition, step by step, from S to F
+if no connection (transition) is found this leads to an impasse; 
+RH-STG ‘sees’ LH activity on meta-level, clustering concepts into abstract categories (cosets, or constrained sets);
+connection between S to F is found in RH, leading to a feeling of vague understanding; 
+gamma burst increases the activity of LH representations for S, F and intermediate configurations; feeling of imminent solution arises;
+stepwise transition between S and F is found;
+finding solution is rewarded by emotions during Aha! experience;  they are necessary to increase plasticity and create permanent links. </text>
+		</slide>
+		<slide index="18" slideId="699" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Semantic =&gt; vector reps">
+			<notes/>
+			<notesHtml/>
+			<text>Semantic =&gt; vector reps
+Some associations are subjective, some are universal. 
+How to find the activation pathways in the brain? Try this algorithm: 
+Perform text pre-processing steps: stemming, stop-list, spell-checking ...
+Map text to some ontology to discover concepts (ex. UMLS ontology). 
+Use relations (Wordnet, ULMS), selecting those types only that help to distinguish between concepts.
+Create first-order cosets (terms + all new terms from included relations), expanding the space – acts like a set of filters that evaluate various aspects of concepts. 
+Use feature ranking to reduce dimensionality of the first-order coset space, leave all original features. 
+Repeat last two steps iteratively to create second- and higher-order enhanced spaces, first expanding, then shrinking the space. 
+
+Result: a set of X vectors representing concepts in enhanced spaces, partially including effects of spreading activation.</text>
+		</slide>
+		<slide index="19" slideId="643" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Medical applications: goals &amp; questions">
+			<notes/>
+			<notesHtml/>
+			<text>Medical applications: goals &amp; questions
+Can we capture expert’s intuition evaluating document’s similarity, finding its category? Learn form insights?
+How to include a priori  knowledge in document categorization – important especially for rare disease. 
+Provide unambiguous annotation of all concepts.
+Acronyms/abbreviations expansion and disambiguation.
+How to make inferences from the information in the text, assign values to concepts (true, possible, unlikely, false).
+How to deal with the negative knowledge (not been found, not consistent with ...).
+Automatic creation of medical billing codes from text.
+Semantic search support, better specification of queries. 
+Question/answer system.
+Integration of text analysis with molecular medicine.
+Provide support for billing, knowledge discovery, dialog systems. </text>
+		</slide>
+		<slide index="20" slideId="663" animationStepsCount="3" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="1.0000000" title="Clusterization on enhanced data">
+			<notes/>
+			<notesHtml/>
+			<text>MDS mapping of 4534 documents divided in 10 classes, using cosine distances. 
+
+Initial representation, 807 features.
+Enhanced by 26 selected semantic types, two steps, 2237 concepts with CC &gt;0.02 for at least one class.
+Two steps create feedback loops A  B between concepts. 
+
+Structure appears ... is it interesting to experts? 
+Are these specific subtypes (clinotypes)? 
+Clusterization on enhanced data</text>
+		</slide>
+		<slide index="21" slideId="664" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Searching for topics">
+			<notes/>
+			<notesHtml/>
+			<text>Discover topics, subclusters, more focused than general categories.
+
+Map text on the 2007 MeSH (Medical Subject Headings) ontology, more precise than ULMS. 
+Filter rare concepts (appearing in &lt;1% docs) and very common concepts (&gt;99% docs); remove documents with too few concepts  (&lt;1% of all) =&gt; smaller but better defined clusters.
+Leave only 26 semantic types. 
+
+Ward’s clustering used, with silhouette measure of clustering quality. Only 3 classes: two classes that mix most strongly (Pneumonia and Otitis media), add the smallest class JRA. 
+
+Initial filtering: 570 concepts with 1%&lt;tf&lt;99%,1002 documents. Semantic (26 types): 224 concepts, 908 docs with &gt;1% concepts. These 224 concepts have about 70.000 ULMS relations, only 500 belong to the 26 semantic types. 
+Enhancement: very restrictive, only ~25 most correlated added.  
+Searching for topics</text>
+		</slide>
+		<slide index="22" slideId="665" animationStepsCount="3" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5010000" title="Results">
+			<notes/>
+			<notesHtml/>
+			<text>Results
+Start, iterations 2, 3 and 4 shown, 5 clinotypes may be distinguished.</text>
+		</slide>
+		<slide index="23" slideId="676" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="PubMed queries">
+			<notes/>
+			<notesHtml/>
+			<text>PubMed queries
+Searching for: 
+"Alzheimer disease"[MeSH Terms] AND "apolipoproteins e"[MeSH Terms] AND "humans"[MeSH Terms]
+Returns 2899 citations with 1924 MeSH terms. 
+Out of 16 MeSH hierarchical trees only 4 trees have been selected: Anatomy; Diseases; Chemicals &amp; Drugs;  Analytical, Diagnostic and Therapeutic Techniques &amp; Equipment. The number of concepts is 1190. 
+
+Loop over: 
+Cluster analysis; 
+Feature space enhancement  through ULMS relations between MeSH concepts;
+Inhibition, leading to filtering of concepts.
+Create graphical representation. </text>
+		</slide>
+		<slide index="24" slideId="592" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Creativity with words">
+			<notes/>
+			<notesHtml/>
+			<text>Creativity with words
+The simplest testable model of creativity:  
+   create interesting novel words that capture some features of products;
+   understand new words that cannot be found in the dictionary;
+   relate the model to neuroimaging data.
+Model inspired by the putative brain processes when new words are being invented starting from some keywords priming auditory cortex. 
+Phonemes (allophones) are resonances, ordered activation of phonemes will activate both known words as well as their combinations; context + inhibition in the winner-takes-most leaves only a few candidate words.
+Creativity = network+imagination (fluctuations)+filtering (competition)
+
+Imagination: chains of phonemes activate both word and non-word representations, depending on the strength of the synaptic connections. Filtering: based on associations, emotions, phonological/semantic density. 
+</text>
+		</slide>
+		<slide index="25" slideId="549" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Memory &amp; creativity">
+			<notes/>
+			<notesHtml/>
+			<text>Memory &amp; creativity
+Creative brains accept more incoming stimuli from the surrounding environment (Carson 2003), with low levels of latent inhibition responsible for filtering stimuli that were irrelevant in the past. 
+“Zen mind, beginners mind” (S. Suzuki) – learn to avoid habituation! 
+Complex representation of objects and situations kept in creative minds. 
+Pair-wise word association technique may be used to probe if a connection between different configurations representing concepts in the brain exists. 
+A. Gruszka, E. Nęcka, Creativity Research Journal, 2002.
+Words may be close (easy) or distant (difficult) to connect;  priming words may be helpful or neutral;  helpful words are either semantic or phonological (hogse for horse);  neutral words may be nonsensical or just not related to the presented pair. 
+Results for groups of people who are less/highly creative are surprising … 
+Word 1
+Priming 0,2 s
+Word 2</text>
+		</slide>
+		<slide index="26" slideId="553" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Creativity &amp; associations">
+			<notes/>
+			<notesHtml/>
+			<text>Creativity &amp; associations
+Hypothesis: creativity depends on the associative memory,  ability to connect distant concepts together. 
+Results: creativity is correlated with greater ability to associate words   susceptibility to priming, distal associations show longer latencies before decision is made.
+Neutral priming is strange! 
+ for close words and nonsensical priming words creative people do worse    than less creative; in all other cases they do better.
+ for distant words priming always increases the ability to find association,    the effect is strongest for creative people. 
+Latency times follow this strange patterns.
+Conclusions of the authors: 
+More synaptic connections =&gt; better associations =&gt; higher creativity.
+Results for neutral priming are puzzling.</text>
+		</slide>
+		<slide index="27" slideId="543" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Paired associations">
+			<notes/>
+			<notesHtml/>
+			<text>Paired associations
+So why neutral priming for close associations and  nonsensical priming words degrades results of creative people?  
+High creativity = many connections between microcircuits; nonsensical words add noise, increasing activity between many circuits; in a densely connected network adding noise creates confusion, the time need for decision is increased because the system has to settle in specific attractor. 
+If creativity is low and associations distant noise does not help because there are no connections, priming words contribute only to chaos.   Nonsensical words increase overall activity in the intermediate configura-tions. For creative people resonance between distant microcircuits is possible: this is called stochastic resonance, observed in perception. 
+For priming words with similar spelling and close words the activity of the second word representation is higher, always increasing the chance of connections and decreasing latency. For distant words it will not help, as intermediate configurations are not activated. </text>
+		</slide>
+		<slide index="28" slideId="677" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Computational creativity">
+			<notes/>
+			<notesHtml/>
+			<text>Computational creativity
+Go to the lower level … 
+construct words from combinations of phonemes, pay attention to morphemes, flexion etc.
+Start from keywords priming phonological representations in the auditory cortex; spread the activation to concepts that are strongly related.
+Use inhibition in the winner-takes-most to avoid false associations.
+Find fragments that are highly probable, estimate phonological probability.
+Combine them, search for good morphemes, estimate semantic probability.
+Creativity = space + imagination (fluctuations)  + filtering (competition)
+
+Space: neural tissue providing space for infinite patterns of activations. 
+Imagination: many chains of phonemes activate in parallel both words and non-words reps, depending on the strength of synaptic connections. 
+Filtering: associations, emotions, phonological/semantic density. </text>
+		</slide>
+		<slide index="29" slideId="671" animationStepsCount="4" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Autoassociative networks">
+			<notes/>
+			<notesHtml/>
+			<text>Autoassociative networks
+Simplest networks: 
+binary correlation matrix, 
+probabilistic p(ai,bj|w)
+
+Major issue: rep. of symbols,
+morphemes, phonology … </text>
+		</slide>
+		<slide index="30" slideId="672" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Phonological filter">
+			<notes/>
+			<notesHtml/>
+			<text>Phonological filter
+Train the autoassociative network on words from some dictionary.
+Create strings of words with “phonological probability”&gt;threshold.
+Many nice Polish words … good for science-fiction poem
+ardyczulać ardychstronność
+ardywialiwić ardykloność
+ardywializować ardywianacje
+argadolić argadziancje
+arganiastość arganastyczna
+arganianalność arganiczna
+argasknie argasknika
+argaszyczny argaszynek
+argażni argulachny argatywista
+argumialent argumiadać argumialenie argumialiwić
+argumializować argumialność
+argumowny argumofon argumował argumowalność</text>
+		</slide>
+		<slide index="31" slideId="544" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Words: experiments">
+			<notes/>
+			<notesHtml/>
+			<text>Words: experiments
+A real letter from a friend: 
+I am looking for a word that would capture the following qualities: portal to new worlds of imagination and creativity, a place where visitors embark on a journey discovering their inner selves, awakening the Peter Pan within.  A place where we can travel through time and space (from the origin to the future and back), so, its about time, about space, infinite possibilities.
+FAST!!! I need it sooooooooooooooooooooooon.
+creativital, creatival (creativity, portal), used in creatival.com creativery (creativity, discovery), creativery.com (strategy+creativity) discoverity = {disc, disco, discover, verity} (discovery, creativity, verity) digventure ={dig, digital, venture, adventure}   still new!  imativity (imagination, creativity); infinitime (infinitive, time)  infinition (infinitive, imagination), already a company name portravel (portal, travel); sportal (space, sport, portal), taken  timagination (time, imagination); timativity (time, creativity) tivery (time, discovery); trime (travel, time) 
+Server at: http://www-users.mat.uni.torun.pl/~macias/mambo </text>
+		</slide>
+		<slide index="32" slideId="669" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="More experiments">
+			<notes/>
+			<notesHtml/>
+			<text>More experiments
+Probabilistic model, rather complex, including various linguistic peculiarities; includes priming (with Maciej Pilichowski).
+
+Search for a good name for electronic book reader (Kindle?):
+
+Priming set (After some stemming):
+Acquir, collect, gather , air, light, lighter, lightest, paper, pocket, portable, anyplace, anytime, anywhere, cable, detach, global, globe, go, went, gone, going, goes, goer, journey, move, moving, network, remote, road\$, roads\$, travel, wire, world, book, data, informati, knowledge, librar, memor, news, word, words, comfort, easi, easy, gentl, human, natural, personal, computer, electronic, discover, educat, learn, read, reads, reading, explor.  
+
+Exclusion list (for inhibition): 
+aird, airin, airs, bookie, collectic, collectiv, globali, globed, papere, papering, pocketf, travelog. </text>
+		</slide>
+		<slide index="33" slideId="670" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="More words">
+			<notes/>
+			<notesHtml/>
+			<text>More words
+Created word     Word count  and # domains in Google
+librazone   		968   	   1   
+inforizine  		  --    	  --  
+librable    		188   	  --   
+bookists  		216 	  --   
+inforld 		  30    	  --   
+newsests  		    3   	  --   
+memorld 		  78    	   1  
+goinews 		  31    	  --   
+libravel  		972 	  --   
+rearnews  		    8   	  --   
+booktion  		  49  	  --   
+newravel  		    7    	 --  
+lighbooks 		    1    	 --  
++  popular infooks , inforion, datnews, infonews, journics</text>
+		</slide>
+		<slide index="34" slideId="569" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Ambitious approaches…">
+			<notes/>
+			<notesHtml/>
+			<text>Ambitious approaches…
+CYC, Douglas Lenat, started in 1984.  Developed by CyCorp, with 2.5 millions of assertions linking over 150.000 concepts and using thousands of micro-theories (2004).
+Cyc-NL is still a “potential application”, knowledge representation in frames is quite complicated and thus difficult to use. 
+Open Mind Common Sense Project (MIT): 
+a WWW collaboration with over 14,000 authors, who contributed 710,000 sentences; used to generate ConceptNet, very large semantic network.
+Other such projects: HowNet (Chinese Academy of Science),  FrameNet (Berkley), various large-scale ontologies. 
+
+The focus of these projects is to understand all relations in text/dialogue. 
+NLP is hard and messy!  Many people lost their hope that without deep embodiment we shall create good NLP systems.
+
+Go the brain way! How does the brain do it?
+</text>
+		</slide>
+		<slide index="35" slideId="627" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Realistic goals?">
+			<notes/>
+			<notesHtml/>
+			<text>Realistic goals?
+Different applications may require different knowledge representation.
+Start from the simplest knowledge representation for semantic memory. 
+Find where such representation is sufficient, understand limitations.  Drawing on such semantic memory an avatar may formulate and may answer many questions that would require exponentially large number of templates in AIML or other such language. 
+Adding intelligence to avatars involves two major tasks:  
+   building semantic memory model; 
+   provide interface for natural communication.  
+Goal: 
+create 3D human head model, with speech synthesis   recognition, use it to interact with Web pages   local programs: a Humanized InTerface (HIT).   Control HIT actions using the knowledge from its semantic memory. </text>
+		</slide>
+		<slide index="36" slideId="641" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="">
+			<notes/>
+			<notesHtml/>
+			<text>Humanized interface, search + dialogue  systems
+Store
+Applications, eg.  
+word games, (20Q),  puzzles, creativity.
+Query
+Semantic memory
+Parser
+Part of speech tagger
+  phrase extractor
+On line dictionaries
+Active search and  dialogues with users
+Manual
+verification</text>
+		</slide>
+		<slide index="37" slideId="637" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="HIT – larger view … ">
+			<notes/>
+			<notesHtml/>
+			<text>HIT – larger view … 
+HIT projects
+T-T-S synthesis
+Speech recognition
+Talking heads
+Behavioral models
+Graphics
+Cognitive Architectures
+Cognitive science
+AI
+ A-Minds
+Lingu-bots
+Knowledge modeling
+Info-retrieval
+VR avatars
+Robotics
+Brain models
+Affective  computing
+Episodic Memory
+Semantic memory
+Working Memory
+Learning</text>
+		</slide>
+		<slide index="38" slideId="638" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="DREAM architecture ">
+			<notes/>
+			<notesHtml/>
+			<text>DREAM architecture 
+Natural input modules
+Cognitive functions
+Affective functions
+Web/text/ databases interface
+Behavior 
+control
+Control of devices
+Talking 
+head
+Text to speech
+NLP
+functions
+Specialized
+agents
+DREAM is concentrated on the cognitive functions + real time control, we plan to adopt software from the HIT project for perception, NLP, and other functions. </text>
+		</slide>
+		<slide index="39" slideId="628" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Types of memory">
+			<notes/>
+			<notesHtml/>
+			<text>Types of memory
+Neurocognitive approach to NLP: at least 4 types of memories.
+Long term (LTM): recognition, semantic, episodic + working memory.
+
+Input (text, speech) pre-processed using recognition memory model to correct spelling errors, expand acronyms etc. 
+For dialogue/text understanding episodic memory models are needed. 
+Working memory: an active subset of semantic/episodic memory.
+All 3 LTM are coupled mutually providing context for recogniton. 
+
+Semantic memory is a permanent storage of conceptual data.  
+  “Permanent”: data is collected throughout the whole lifetime of the      system, old information is overridden/corrected by newer input.
+  “Conceptual”: contains semantic relations between words and uses them       to create concept definitions.</text>
+		</slide>
+		<slide index="40" slideId="570" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Semantic Memory Models">
+			<notes/>
+			<notesHtml/>
+			<text>Semantic Memory Models
+Endel Tulving „Episodic and Semantic Memory” 1972. 
+
+Semantic memory refers to the memory of meanings and understandings. 
+It stores concept-based, generic, context-free knowledge. 
+
+Permanent container for general knowledge (facts, ideas, words etc).
+Semantic network  Collins   Loftus, 1975
+Hierarchical Model  Collins   Quillian, 1969</text>
+		</slide>
+		<slide index="41" slideId="631" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Semantic memory">
+			<notes/>
+			<notesHtml/>
+			<text>Semantic memory
+Hierarchical model of semantic memory (Collins and Quillian, 1969), followed by most ontologies.
+
+Connectionist spreading activation model (Collins and Loftus, 1975), with mostly lateral connections. 
+Our implementation is based on connectionist model, uses relational database and object access layer API. 
+The database stores three types of data: 
+  concepts, or objects being described; 
+  keywords (features of concepts extracted from data sources);
+  relations between them. 
+ IS-A relation us used to build ontology tree, serving for activation spreading, i.e. features inheritance down the ontology tree.
+Types of relations (like “x IS y”, or “x CAN DO y” etc.) may be defined when input data is read from dictionaries and ontologies. </text>
+		</slide>
+		<slide index="42" slideId="629" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="SM &amp; neural distances">
+			<notes/>
+			<notesHtml/>
+			<text>SM &amp; neural distances
+Activations of groups of neurons presented in activation space define similarity relations in geometrical model (McClleland, McNaughton, O’Reilly, Why there are complementary learning systems, 1994).</text>
+		</slide>
+		<slide index="43" slideId="630" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Similarity between concepts">
+			<notes/>
+			<notesHtml/>
+			<text>Similarity between concepts
+Left: MDS on vectors from neural network.  Right: MDS on data from psychological experiments with perceived similarity between animals.
+Vector and probabilistic models are approximations to this process.
+				  Sij ~ (w,Cont)|(w,Cont) </text>
+		</slide>
+		<slide index="44" slideId="632" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Creating SM">
+			<notes/>
+			<notesHtml/>
+			<text>Creating SM
+The API serves as a data access layer providing logical  operations between raw data and higher application layers.  Data stored in the database is mapped into application  objects and the API allows for retrieving specific concepts/keywords. 
+Two major types of data sources for semantic memory:  
+machine-readable structured dictionaries directly convertible into  semantic memory data structures; 
+blocks of text, definitions of concepts from dictionaries/encyclopedias.
+
+3 machine-readable data sources are used: 
+The Suggested Upper Merged Ontology (SUMO) and the the MId-Level Ontology (MILO), over 20,000 terms and 60,000 axioms.
+WordNet lexicon, more than 200,000 words-sense pairs.
+ConceptNet, concise knowledgebase with 200,000 assertions.</text>
+		</slide>
+		<slide index="45" slideId="633" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Creating SM – free text">
+			<notes/>
+			<notesHtml/>
+			<text>Creating SM – free text
+WordNet hypernymic (a kind of … ) IS-A relation + Hyponym  and meronym relations between synsets (converted into concept/concept relations), combined with ConceptNet relation  such as: CapableOf, PropertyOf, PartOf, MadeOf ... 
+Relations added only if in both Wordnet and Conceptnet. 
+Free-text data: Merriam-Webster, WordNet and Tiscali. 
+Whole word definitions are stored in SM linked to concepts. 
+A set of most characteristic words from definitions of a given concept. 
+For each concept definition, one set of words for each source dictionary is used, replaced with synset words, subset common to all 3 mapped back to synsets – these are most likely related to the initial concept. 
+They were stored as a separate relation type. 
+Articles and prepositions: removed using manually created stop-word list.
+Phrases were extracted using ApplePieParser + concept-phrase relations compared with concept-keyword, only phrases that matched keywords were used. </text>
+		</slide>
+		<slide index="46" slideId="573" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Semantic knowledge representation">
+			<notes/>
+			<notesHtml/>
+			<text>Semantic knowledge representation
+vwCRK: certainty – truth –  
+Concept Relation Keyword
+Similar to RDF in semantic web.
+Cobra
+is_a	animal
+is_a	beast
+is_a	being
+is_a	brute
+is_a	creature
+is_a	fauna
+is_a	organism
+is_a	reptile
+is_a	serpent
+is_a	snake
+is_a	vertebrate
+has	belly
+has	body part
+has	cell
+has	chest
+has	costa
+Simplest rep. for massive evaluation/association: 
+CDV – Concept Description Vectors, forming  Semantic Matrix</text>
+		</slide>
+		<slide index="47" slideId="634" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Concept Description Vectors">
+			<notes/>
+			<notesHtml/>
+			<text>Concept Description Vectors
+Drastic simplification: for some applications SM is used in a more efficient way using vector-based knowledge representation. 
+Merging all types of relations =&gt; the most general one:   “x IS RELATED TO y”,  defining vector (semantic) space. 
+{Concept, relations} =&gt; Concept Description Vector, CDV.
+Binary vector, shows which properties are related or have sense for a given concept (not the same as context vector, some structure preserved).
+Semantic memory =&gt; CDV matrix, very sparse, easy storage of large amounts of semantic data. 
+
+Search engines: {keywords} =&gt; concept descriptions (Web pages). 
+CDV enable efficient implementation of reversed queries: 
+	find a unique subsets of properties for a given concept  	or a class of concepts = concept higher in ontology. 
+What are the unique features of a sparrow? Proteoglycan? Neutrino?</text>
+		</slide>
+		<slide index="48" slideId="574" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Relations">
+			<notes/>
+			<notesHtml/>
+			<text>Relations
+IS_A: specific features from more general objects. Inherited features with w from superior relations;  v decreased by 10% + corrected during interaction with user.  
+Similar: defines objects which share features with each other;  acquire new knowledge from similar objects through swapping of unknown features with given certainty factors. 
+Excludes: exchange some unknown features, but reverse the sign of w weights. 
+Entail: analogical to the logical implication, one feature automatically entails a few more features (connected via the entail relation). 
+
+Atom of knowledge contains strength and the direction of relations between concepts and keywords coming from 3 components: 
+
+directly entered into the knowledge base;
+deduced using predefined relation types from stored information; 
+obtained during system's interaction with the human user. 
+Example: enhanced Wordnet (Stanford project)</text>
+		</slide>
+		<slide index="49" slideId="639" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="20Q">
+			<notes/>
+			<notesHtml/>
+			<text>20Q
+The goal of the 20 question game is to guess a concept that  the opponent has in mind by asking appropriate questions.  
+www.20q.net has a version that is now implemented in some toys!
+Based on concepts x question table T(C,Q) = usefulness of Q for C. 
+Learns T(C,Q) values, increasing after successful games, decreasing after lost games. Guess: distance-based.
+
+SM does not assume fixed questions. 
+Use of CDV admits only simplest form “Is it related to X?”, or “Can it be associated with X?”, where X = concept stored in the SM. 
+Needs only to select a concept, not to build the whole question. 
+
+Once the keyword has been selected it is possible to use the full power of semantic memory to analyze the type of relations and ask more sophisticated questions. 
+How is the concept selected? </text>
+		</slide>
+		<slide index="50" slideId="624" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Word games">
+			<notes/>
+			<notesHtml/>
+			<text>Word games
+Word games were popular before computer games.  They are essential to the development of analytical thinking.  Until recently computers could not play such games. 
+
+The 20 question game may be the next great challenge for AI, because it is more realistic than the unrestricted Turing test;  a World Championship with human and software players (in Singapore)? 
+
+Finding most informative questions requires knowledge and creativity.  
+
+Performance of various models of semantic memory and episodic memory may be tested in this game in a realistic, difficult application. 
+
+Asking questions to understand precisely what the user has in mind is critical for search engines and many other applications. 
+
+Creating large-scale semantic memory is a great challenge:  ontologies, dictionaries (Wordnet), encyclopedias, MindNet  (Microsoft), collaborative projects like Concept Net (MIT) … </text>
+		</slide>
+		<slide index="51" slideId="596" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Mental models">
+			<notes/>
+			<notesHtml/>
+			<text>Mental models
+P. Johnson-Laird, 1983 book and papers. 
+Imagination: mental rotation, time ~ angle, about 60o/sec.
+Internal models of relations between objects, hypothesized to play a major role in cognition and decision-making. 
+AI: direct representations are very useful, direct in some aspects only!
+
+Reasoning: imaging relations, “seeing” mental picture, semantic? 
+Systematic fallacies: a sort of cognitive illusions.
+
+If the test is to continue then the turbine must be rotating fast enough to generate emergency electricity.
+The turbine is not rotating fast enough to generate this electricity.
+What, if anything, follows?  Chernobyl disaster …  
+If A=&gt;B;  then ~B =&gt; ~A, but only about 2/3 students answer correctly..
+
+
+Kenneth Craik, 1943 book “The Nature of Explanation”, G-H Luquet attributed mental models to children in 1927.</text>
+		</slide>
+		<slide index="52" slideId="566" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Reasoning &amp; models">
+			<notes/>
+			<notesHtml/>
+			<text>Reasoning &amp; models
+Easy reasoning A=&gt;B, B=&gt;C, so A=&gt;C
+
+  All mammals suck milk.
+  Humans are mammals. 
+  =&gt; Humans suck milk.
+
+... but almost no-one can draw conclusion from: 
+
+All academics are scientist.
+No wise men is an academic.
+What can we say about wise men and scientists? 
+
+Surprisingly only ~10% of students get it right, all kinds of errors!
+No simulations explaining why some mental models are difficult? 
+Creativity: non-schematic thinking? </text>
+		</slide>
+		<slide index="53" slideId="597" animationStepsCount="2" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Mental models summary">
+			<notes/>
+			<notesHtml/>
+			<text>Mental models summary
+MM represent explicitly what is true, but not what is false;  this may lead naive reasoner into systematic error.  
+Large number of complex models =&gt; poor performance. 
+Tendency to focus on a few possible models =&gt; erroneous conclusions and irrational decisions.
+
+Cognitive illusions are just like visual illusions.
+M. Piattelli-Palmarini, Inevitable Illusions: How Mistakes of Reason Rule Our Minds (1996)
+R. Pohl, Cognitive Illusions: A Handbook on Fallacies and Biases in Thinking, Judgement and Memory (2005)
+
+Amazing, but mental models theory ignores everything we know about
+learning in any form! How and why do we reason the way we do? 
+I’m innocent! My brain made me do it!
+
+
+ 
+
+The mental model theory is an alternative to the view that deduction depends on formal rules of inference.</text>
+		</slide>
+		<slide index="54" slideId="682" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="P-spaces">
+			<notes/>
+			<notesHtml/>
+			<text>P-spaces
+Psychological spaces:  
+K. Lewin, The conceptual representation and the measurement of psychological forces (1938), cognitive dynamic movement in phenomenological space.
+George Kelly (1955), personal construct psychology, geometry of psychological spaces as alternative to logic.
+A complete theory of cognition, action, learning and intention. 
+P-space: region in which we may place and classify elements of our experience, constructed and evolving, „a space without distance”, divided by dichotomies.
+P-spaces (Shepard 1957-2001): 
+  minimal dimensionality
+  distances that monotonically decrease 
+    with increasing similarity 
+   (multi-dimensional non-metric scaling). </text>
+		</slide>
+		<slide index="55" slideId="683" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Generalization of perceived similarity">
+			<notes/>
+			<notesHtml/>
+			<text>Generalization of perceived similarity
+Universal law of generalization, Shepard (1987) ;  Tenenbaum, Griffith (2001), Bayesian framework unifying set-theoretic approach (Tversky 1977) with Shepard’s ideas. 
+Generalization gradients tend to fall off approximately exponentially with distance in an appropriately scaled psychological space.
+Distance D from MDS maps reproducing perceived similarity of stimuli.
+G(D) = probability of response learned to stimulus for D=0, for many visual/auditory tasks, falls exponentially with that distance.
+Data for hue similarity,  is similar for most  animals, including pigeons and humans.</text>
+		</slide>
+		<slide index="56" slideId="681" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Static Platonic model: motivation">
+			<notes/>
+			<notesHtml/>
+			<text>Static Platonic model: motivation
+Plato believed in reality of mind, ideal forms recognized by intellect.
+Perceived mind content is like a shadow of ideal, real world of objects projected on the wall of a cave. 
+Real mind objects: shadows of neurodynamics.
+R. Shepard (BBS, 2001): psychological laws should be formulated  in appropriate psychological abstract spaces.
+Physics - macroscopic properties results from microinteractions.
+Description of movement - invariant in appropriate spaces: 
+   Galileo transformations in Euclidean 3D; 
+   Lorentz transformations in (3+1) pseudo-Euclidean; 
+   Riemannian curved space, laws invariant in accelerating frames.
+Psychology - categorization, behavior, results from neurodynamics. 
+Neural networks: microscopic description, too difficult to use.
+Find psychological spaces resulting from neural dynamics, allowing for general behavioral laws.</text>
+		</slide>
+		<slide index="57" slideId="685" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Static Platonic model">
+			<notes/>
+			<notesHtml/>
+			<text>Static Platonic model
+Newton introduced space-time, arena for physical events.
+Mind events need psychological spaces.
+Goal: integrate neural and behavioral information in one model, connect psychology and neuroscience, create mind model at intermediate level.
+
+Static version: short-term response properties of the brain, behavioral (sensomotoric) or memory-based (cognitive). 
+
+Applications: object recognition, category formation in low-dimensional psychological spaces, models of mind.
+
+Approach: 
+  simplify neural dynamics, find invariants (attractors), characterize      them in psychological spaces; 
+  use behavioral data, represent them in psychological space.</text>
+		</slide>
+		<slide index="58" slideId="690" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Some neurodynamics.">
+			<notes/>
+			<notesHtml/>
+			<text>Some neurodynamics.
+Amit group, 1997-2001, 
+simplified spiking neuron 
+models of column activity during learning. 
+Formation of new attractors =&gt; formation of mind objects. 
+
+PDF: p(activity of columns, given presented features) 
+Stage 1: single columns respond to some feature. 
+Stage 2: several columns respond to different features. 
+Stage 3: correlated activity of many columns appears.  </text>
+		</slide>
+		<slide index="59" slideId="688" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="From neurodynamics to P-spaces.">
+			<notes/>
+			<notesHtml/>
+			<text>From neurodynamics to P-spaces.
+Modeling input/output relations with some internal parameters.
+Freeman: model of olfaction in rabbits, 5 types of odors, 5 types of behavior, very complex model in between.
+Attractors of dynamics in high-dimensional space =&gt; via fuzzy symbolic dynamics allow to define probability densities (PDF) in feature spaces.
+Mind objects - created from fuzzy prototypes/exemplars. 
+Case-based reasoning: static model. </text>
+		</slide>
+		<slide index="60" slideId="698" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Language of thought">
+			<notes/>
+			<notesHtml/>
+			<text>Language of thought
+Precise language, replacing folk psychology, reducible to neurodynamics. 
+Mind state dynamics - gradient dynamics in mind space, „sticking” to PDF maxima, for example: 
+where g(x) controls the „sticking” and h(t) is a noise + external forces term.  
+Mind state has inertia and momentum;  transition prob. between mind objects should be fitted to transition prob. between corresponding attractors of neurodynamics (QM fromalism). 
+Primary mind objects - from sensory data.
+Secondary mind objects - abstract categories.  </text>
+		</slide>
+		<slide index="61" slideId="691" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Human categorization">
+			<notes/>
+			<notesHtml/>
+			<text>Human categorization
+How do we discretize percepts, creating basis for symbolic communication?   Multiple brain areas involved in different categorization tasks.
+Classical experiments on rule-based category learning:  Shepard, Hovland and Jenkins (1961), replicated by Nosofsky et al. (1994).
+Problems of increasing complexity; results determined by logical rules. 
+3 binary-valued dimensions: 
+	shape (square/triangle), color (black/white), size (large/small). 
+4 objects in each of the two categories presented during learning. 
+
+Type  I - categorization using one dimension only. 
+Type II - two dim. are relevant, including exclusive or (XOR) problem.  
+Types III, IV, and V - intermediate complexity between Type II - VI.  All 3 dimensions relevant, "single dimension plus exception" type.
+Type VI - most complex, 3 dimensions relevant, enumerate, no simple rule.
+
+Difficulty (number of errors made): Type I &lt; II &lt; III ~ IV ~ V &lt; VI
+For n bits there are 2n binary strings 0011…01; how complex are the rules (logical categories) that human/animal brains still can learn? </text>
+		</slide>
+		<slide index="62" slideId="692" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Canonical dynamics.">
+			<notes/>
+			<notesHtml/>
+			<text>Canonical dynamics.
+What happens in the brain during category learning?  
+Complex neurodynamics &lt;=&gt; simplest, canonical dynamics. 
+For all logical functions one may write corresponding equations. 
+For XOR (type II problems) equations are:
+Corresponding feature space for relevant dimensions A, B</text>
+		</slide>
+		<slide index="63" slideId="693" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Inverse based rates.">
+			<notes/>
+			<notesHtml/>
+			<text>Inverse based rates.
+Relative frequencies (base rates) of categories are used for classification: if C is 3 times as coomn as R, and C is associated with (PC, I) symptoms then PC =&gt; C, I =&gt; C.
+
+Predictions contrary to the base: inverse base rate effects (Medin, Edelson 1988). 
+Although  PC + I + PR =&gt; C (60%) 
+	   PC + PR =&gt; R (60%)
+Basins of attractors - neurodynamics; 
+PDFs in P-space {C, R, I, PC, PR}. 
+Psychological interpretation (Kruschke 1996):
+PR is attended to because it is a distinct symptom, although PC is more common.
+PR + PC activation leads more frequently to R because the basin of attractor for R is deeper. </text>
+		</slide>
+		<slide index="64" slideId="695" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Dynamic approach.">
+			<notes/>
+			<notesHtml/>
+			<text>Dynamic approach.
+Static model - responsible for immediate, memory-based behavior. 
+Local maxima of PDF - potential activations of the long-term memory.
+Working memory, content of mind - currently active objects.
+Mind state - in attractor, near O1, active object, it has momentum and inertia. External stimulus pushes the mind state towards O2.  
+A masking stimulus O3 close to O2 blocks activation of O2; no conscious recall of the small disk is noted; priming lowers inertia. 
+Masking: the circle exposed for 30 ms is seen, but not if ring follows.</text>
+		</slide>
+		<slide index="65" slideId="696" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Platonic mind model.">
+			<notes/>
+			<notesHtml/>
+			<text>Platonic mind model.
+Geometrical model with feature detectors/effectors as topographical maps.
+Objects in long-term memory (parietal, temporal, frontal): local P-spaces.
+Mind space (working memory, prefrontal, parietal): construction of mind space features/objects using attentional mechanisms. </text>
+		</slide>
+		<slide index="66" slideId="694" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Feature Space Mapping.">
+			<notes/>
+			<notesHtml/>
+			<text>Feature Space Mapping.
+FSM (Duch 1994) - neurofuzzy system for modeling PDFs using separable transfer (membership) functions.  
+Categorization (classification), extraction of logical rules, decision support.
+Set up (fuzzy) facts explicitly as dense regions in the feature space; 
+Initialize by clusterization - creates rough PDF landscape.  
+Train by tuning adaptive parameters P;
+	novelty criteria allow for creation of new nodes as required. 
+Self-organization of G(X;P) = prototypes of objects in the feature space.
+Recognition: find local maximum of the F(X;P) function.</text>
+		</slide>
+		<slide index="67" slideId="659" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.0100000" title="Few conclusions">
+			<notes/>
+			<notesHtml/>
+			<text>Few conclusions
+Neurocognitive informatics goes beyond simple neural networks.  
+Neurocognitive linguistics (S. Lamb)  played with toy problems, but 
+our neurocognitive NLP leads to interesting practical algorithms.  
+
+Creation of novel words is possible at the human competence level, opening a new vista in creativity research, suggesting new experiments.
+
+Various approximations to knowledge representation in brain networks should be studied: from the use of a priori knowledge based on reference vectors, through ontology-based enhancements, to graphs of consistent concepts in spreading activation networks.  
+Specific (drastically simplified) representation of semantic knowledge is sufficient in word games and query precisiation applications.   
+A lot of things left to try before we shall give up hope for “real NLP”. 
+More work on semantic memories for common sense and for specialized applications is needed. </text>
+		</slide>
+		<slide index="68" slideId="621" animationStepsCount="1" hidden="0" advanceOnClick="1" advanceOnTime="0" duration="0.5000000" title="Thank  you for  lending your  ears  ...">
+			<notes/>
+			<notesHtml/>
+			<text>Thank  you for  lending your  ears  ...
+Google: W. Duch =&gt; Papers/presentations/projects</text>
+		</slide>
+	</slides>
+</presentation>
