@@ -3,7 +3,6 @@ package services
 import scala.language.implicitConversions
 import scala.xml.{Elem, Node, NodeSeq}
 import NodeToSlide._
-
 import scala.util.Try
 
 case class Slide(index: Int, slideId: String, animSteps: Int, title: String)
@@ -23,18 +22,8 @@ object NodeToSlide {
 }
 
 
-/**
-  * Class to
-  */
-class ISpringXMLParser {
 
-
-
-
-}
-
-
-trait ISpringXMLParserTrait {
+object ISpringXMLParser {
 
 
   def slideList(str: String): Seq[Slide] = {
@@ -42,8 +31,6 @@ trait ISpringXMLParserTrait {
     val xml: Elem = scala.xml.XML.loadFile(str)
 
     val sn: NodeSeq = xml \\ "presentation" \\ "slides" \\ "slide"
-
-    sn.foreach(x => println(x.toString))
 
     sn.flatMap(_.headOption.map(_.slide))
   }
