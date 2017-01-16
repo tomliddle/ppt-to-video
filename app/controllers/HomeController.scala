@@ -2,6 +2,8 @@ package controllers
 
 import javax.inject._
 
+import akka.NotUsed
+import akka.stream.scaladsl.Source
 import akka.util.ByteString
 import org.webjars.play.RequireJS
 import play.api.http.HttpEntity
@@ -21,7 +23,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 @Singleton
 class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS) extends Controller {
 
-  private val videos = Seq[String]("test/resources/5838/slidedeck.swf")
+  private val videos = Seq[String]("test/resources/5838/video.mp4")
 
 
   /**
@@ -38,15 +40,19 @@ class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS)
 
     val v = videos(id)
     val file = new java.io.File(v)
-    val mimeType = "application/x-shockwave-flash"
+    val mimeType = "video/mp4"
 
     val data: Enumerator[Array[Byte]] = Enumerator.fromFile(file)
 
-    Ok.sendEntity(HttpEntity.Streamed(
-      akka.stream.scaladsl.Source.fromPublisher(Streams.enumeratorToPublisher(data)).map(ByteString.apply),
-      None,
-      Some(mimeType)
-    ))
+    // Range header - could use this?
+    //r.headers.get(RANGE)
+
+    val src: Source[ByteString, NotUsed] = akka.stream.scaladsl.Source.fromPublisher(Streams.enumeratorToPublisher(data)).map(ByteString.apply)
+
+    val streamed: HttpEntity = HttpEntity.Streamed(src, None, Some(mimeType))
+
+    RangeResult.ofSource(streamed.contentLength, src, None, Some("streamed filename"), Some("video/mp4"))
+
   }
 
   def slideInfo(id: Int) = Action {

@@ -1,16 +1,23 @@
 require(["jquery"], function() {
 
-  //  var swfObject = $("#video");
-    var frame = 0;
+    var swf = $("#video").get(0);
+    swf.preload = "auto";
 
-    swfobject.embedSWF("video/0", "video", "550px", "400px", "9");
+    // TODO look at HLSJS
+
+    $("#play").click(function () {
+        swf.play();
+    });
 
     $("#prev").click(function () {
-        frame -= 1;
-        swfobject.gotoAndPlay(frame);
+        var currTime = swf.currentTime;
+        console.log("prev " + currTime);
+
+        swf.currentTime = currTime - 10;
     });
     $("#next").click(function () {
-        frame += 1;
-        swfobject.gotoAndPlay(frame);
+        var currTime = swf.currentTime;
+        console.log("next  " + currTime);
+        swf.currentTime = currTime + 10;
     });
 });
