@@ -36,9 +36,11 @@ class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS)
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
-  def index = Action {
-    Ok(views.html.index("Your new application is ready.", requireJS))
+  def videoidx = Action {
+    Ok(views.html.video("Your new application is ready.", requireJS))
   }
+
+
 
   def video(id: Int) = Action { implicit r =>
 
@@ -68,6 +70,37 @@ class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS)
 
     import util.Implicits._
     Ok(Json.toJson(list))
+  }
+
+
+
+  //// **********************************************************************************************************************************
+
+  def canvas = Action {
+    Ok(views.html.canvas("Your new application is ready.", requireJS))
+  }
+
+
+
+  /////// ******************
+
+  // index
+  def index = Action {
+    Ok(views.html.index("Your new application is ready.", requireJS))
+  }
+
+  def swf = Action {
+    val v = "test/resources/5838/slidedeck.swf"
+    val file = new java.io.File(v)
+    val mimeType = "application/x-shockwave-flash"
+
+    val data: Enumerator[Array[Byte]] = Enumerator.fromFile(file)
+
+    Ok.sendEntity(HttpEntity.Streamed(
+      akka.stream.scaladsl.Source.fromPublisher(Streams.enumeratorToPublisher(data)).map(ByteString.apply),
+      None,
+      Some(mimeType)
+    ))
   }
 
 }

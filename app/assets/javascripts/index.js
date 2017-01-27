@@ -27,4 +27,5 @@ require(["jquery"], function() {
         video.src = "video/" + slide;
         console.log("prev " + slide + " " + slidelength);
     });
+
 });

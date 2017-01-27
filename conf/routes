@@ -3,9 +3,14 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index
+GET     /video                           controllers.HomeController.videoidx
 GET     /video/:id                  controllers.HomeController.video(id: Int)
 GET     /slidecount                 controllers.HomeController.slidecount
+
+GET     /canvas                 controllers.HomeController.canvas
+
+GET     /                 controllers.HomeController.index
+GET     /swf                 controllers.HomeController.swf
 
 
 
