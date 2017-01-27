@@ -1,23 +1,30 @@
 require(["jquery"], function() {
 
-    var swf = $("#video").get(0);
-    swf.preload = "auto";
+    var slide = 0;
+    var slidelength = 0;
+    $.get("slidecount", function(val){slidelength = val;});
+    var video = $("#video").get(0);
+    video.preload = "auto";
 
     // TODO look at HLSJS
 
+
+
     $("#play").click(function () {
-        swf.play();
+        video.play();
+        console.log("prev " + slide + " " + slidelength);
     });
 
     $("#prev").click(function () {
-        var currTime = swf.currentTime;
-        console.log("prev " + currTime);
-
-        swf.currentTime = currTime - 10;
+        slide -= 1;
+        if (slide < 0) slide = 0;
+        video.src = "video/" + slide;
+        console.log("prev " + slide + " " + slidelength);
     });
     $("#next").click(function () {
-        var currTime = swf.currentTime;
-        console.log("next  " + currTime);
-        swf.currentTime = currTime + 10;
+        slide += 1;
+        if (slide >= slidelength) slide = slidelength - 1;
+        video.src = "video/" + slide;
+        console.log("prev " + slide + " " + slidelength);
     });
 });

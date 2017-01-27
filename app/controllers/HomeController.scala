@@ -1,5 +1,6 @@
 package controllers
 
+import java.io.{File, FileInputStream}
 import javax.inject._
 
 import akka.NotUsed
@@ -23,7 +24,10 @@ import scala.concurrent.ExecutionContext.Implicits.global
 @Singleton
 class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS) extends Controller {
 
-  private val videos = Seq[String]("test/resources/5838/video.mp4")
+  private val videos: Array[File] = {
+    val dir = new File("media")
+    dir.listFiles().filter(_.getName.endsWith("webm"))
+  }
 
 
   /**
@@ -38,11 +42,10 @@ class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS)
 
   def video(id: Int) = Action { implicit r =>
 
-    val v = videos(id)
-    val file = new java.io.File(v)
-    val mimeType = "video/mp4"
+    val file = videos(id)
+    val mimeType = "video/x-webm"
 
-    val data: Enumerator[Array[Byte]] = Enumerator.fromFile(file)
+    val data: Enumerator[Array[Byte]] = Enumerator.fromStream(new FileInputStream(file))
 
     // Range header - could use this?
     //r.headers.get(RANGE)
@@ -51,8 +54,13 @@ class HomeController @Inject()(webJarAssets: WebJarAssets, requireJS: RequireJS)
 
     val streamed: HttpEntity = HttpEntity.Streamed(src, None, Some(mimeType))
 
-    RangeResult.ofSource(streamed.contentLength, src, None, Some("streamed filename"), Some("video/mp4"))
+    RangeResult.ofSource(streamed.contentLength, src, None, Some("streamed filename"), Some(mimeType))
 
+    //Ok.chunked(src)
+  }
+
+  def slidecount = Action {
+    Ok(Json.toJson(videos.length))
   }
 
   def slideInfo(id: Int) = Action {

@@ -1,7 +1,7 @@
 
 
 import org.scalatestplus.play._
-import services.ISpringXMLParserTrait
+import services.ISpringXMLParser
 
 /**
  * add your integration spec here.
@@ -13,9 +13,7 @@ class XMLParserSpec extends PlaySpec {
 
     "parse the xml" in {
 
-      val parser = new ISpringXMLParserTrait {}
-
-      val s = parser.slideList("test/resources/5838/slidedeck.xml")
+      val s = ISpringXMLParser.slideList("test/resources/5838/slidedeck.xml")
 
       s.size must equal(68)
 
